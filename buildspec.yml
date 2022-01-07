@@ -18,5 +18,4 @@ phases:
       - echo post build
 artifacts:
   files:
-      - '**/*'
       - appspec.yml
