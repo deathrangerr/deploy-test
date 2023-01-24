@@ -1,5 +1,5 @@
 ---
-- hosts: ec2-54-172-161-72.compute-1.amazonaws.com
+- hosts: 54.172.161.72
   tasks:
     - name: run echo command
       command: /bin/echo hello world
