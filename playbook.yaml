@@ -1,5 +1,5 @@
 ---
-- hosts: 54.172.161.72
+- hosts: ansible_host
   tasks:
     - name: run echo command
       command: /bin/echo hello world
